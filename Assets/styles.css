@@ -196,6 +196,9 @@
   .ham-btn {
     display: none;
   }
+  #rektor_mobile {
+    display: none;
+  }
   /* Additions End */
 }
 
@@ -316,5 +319,88 @@
     padding-left: 2.5rem;
   }
   /* Kampus Kami - Section End */
+
+  /* Sambutan Rektor - Section */
+  .sambutan_rektor_section {
+    width: 100%;
+    height: 1455px;
+    background-color: #f8f9fa;
+    flex-direction: column-reverse;
+    display: flex;
+    padding-bottom: 62px;
+  }
+  .left-sambutan {
+    flex: 1;
+  }
+  .right-sambutan {
+    flex: 2;
+  }
+  #rektor_mobile {
+    height: 415px;
+    padding-left: 37px;
+  }
+  #sambutan-title {
+    font-size: 48px;
+    text-align: center;
+    padding-top: 3.25rem;
+  }
+  #sambutan_hr {
+    border: solid 3px #b80505;
+    width: 30%;
+    margin-top: 7px;
+    margin-bottom: 35px;
+    margin-left: 8rem;
+  }
+  .sambutan_para {
+    width: 80%;
+    text-align: justify;
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-top: 32px;
+    margin-left: 37px;
+  }
+  /* Sambutan Rektor - Section End */
+
+  /* Footer */
+  .footer {
+    width: 100%;
+    height: 130px;
+    background-color: #1e1e1e;
+  }
+  .left-footer {
+    float: left;
+    padding-left: 37px;
+    padding-top: 40px;
+  }
+
+  .right-footer {
+    float: right;
+  }
+
+  #red_upi {
+    height: 45px;
+  }
+  .wrap-icon {
+    display: inline-block;
+    padding-right: 37px;
+    padding-top: 54px;
+  }
+  .icon-links {
+    list-style-type: none;
+    margin-left: 17px;
+    text-decoration: none;
+  }
+  .icon-links img {
+    height: 22px;
+  }
+
+  /* Footer - End */
+
+  /* Addition */
+  #rektor {
+    display: none;
+  }
+  /* Addition - End */
 }
+
 /* Media Query Responsive - Mobile End */
